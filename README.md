@@ -202,3 +202,7 @@ Este projeto foi desenvolvido como portfólio técnico para demonstrar expertise
 - Machine Learning aplicado a problemas reais
 - Arquitetura resiliente que aprende e se adapta
 - Pensamento crítico em engenharia de sistemas
+
+### stack + Ferramentas
+
+Este projeto foi desenvolvido utilizando ferramentas de ia como assistente e otimizador de código. O conhecimento técnico, arquitetura e decisões de design foram definidos por mim, enquanto a ia foi usada como ferramenta para acelerar a implementação.
