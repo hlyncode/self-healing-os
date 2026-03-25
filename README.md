@@ -156,6 +156,28 @@ pytest tests/ -v
 # Coverage: >85%
 ```
 
+## API
+
+```bash
+# instalar dependências
+pip install -r requirements.txt
+
+# rodar api
+python -m src.api.main
+# ou
+uvicorn src.api.main:app --reload
+
+# endpoints disponíveis:
+# GET  /           - informações da api
+# GET  /health     - health check
+# POST /detect/zscore - detecta anomalia com z-score
+# POST /detect/isolation-forest - detecta com isolation forest
+# POST /diagnose  - diagnostica causa raiz
+# POST /suggest   - sugere remedies
+# POST /learn/incident - registra incidente
+# GET  /learn/stats - estatísticas de aprendizado
+```
+
 ## Decisões de Design
 
 ### Modo Sugestão, Não Execução Automática
